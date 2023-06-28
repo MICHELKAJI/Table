@@ -1,0 +1,41 @@
+table{
+    width: auto;
+    margin: auto;
+    background-color: beige;
+    
+}
+table, tr{
+    border: black solid 1px;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    padding: 10px;
+    
+}
+
+table, td{
+    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+
+table, th{
+    border: black solid 1px;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+h1,h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+th[scope='col']{
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color: azure;
+}
+caption{
+    caption-side: bottom;
+}
